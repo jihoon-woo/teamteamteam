@@ -1,3 +1,6 @@
 [submodule "EaTR"]
 	path = EaTR
 	url = https://github.com/jinhyunj/EaTR
+[submodule "QD-DETR"]
+	path = QD-DETR
+	url = https://github.com/wjun0830/QD-DETR
