@@ -32,7 +32,7 @@ for dset_domain in BK BT DS FM GA MS PK PR VT VU
 do
     for seed in 0 1 2 3 2017
     do
-        PYTHONPATH=$PYTHONPATH:. python qd_detr/train.py \
+        PYTHONPATH=$PYTHONPATH:. python teamteamteam/QD_DETR_m/qd_detr/train.py \
         --dset_name ${dset_name} \
         --ctx_mode ${ctx_mode} \
         --train_path ${train_path} \

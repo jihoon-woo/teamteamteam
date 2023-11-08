@@ -38,7 +38,7 @@ fi
 bsz=32
 
 
-PYTHONPATH=$PYTHONPATH:. python qd_detr/train.py \
+PYTHONPATH=$PYTHONPATH:. python teamteamteam/QD_DETR_m/qd_detr/train.py \
 --dset_name ${dset_name} \
 --ctx_mode ${ctx_mode} \
 --train_path ${train_path} \
