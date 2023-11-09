@@ -13,12 +13,12 @@ import torch.backends.cudnn as cudnn
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 
-from qd_detr.config import BaseOptions
-from qd_detr.start_end_dataset import \
+from config import BaseOptions
+from start_end_dataset import \
     StartEndDataset, start_end_collate, prepare_batch_inputs
-from qd_detr.start_end_dataset_audio import \
+from start_end_dataset_audio import \
     StartEndDataset_audio, start_end_collate_audio, prepare_batch_inputs_audio
-from qd_detr.inference import eval_epoch, start_inference, setup_model
+from inference import eval_epoch, start_inference, setup_model
 from utils.basic_utils import AverageMeter, dict_to_markdown
 from utils.model_utils import count_parameters
 
