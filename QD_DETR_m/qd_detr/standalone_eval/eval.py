@@ -4,7 +4,7 @@ import json
 import time
 import copy
 import multiprocessing as mp
-from utils import compute_average_precision_detection, \
+from eval_utils import compute_average_precision_detection, \
     compute_temporal_iou_batch_cross, compute_temporal_iou_batch_paired, load_jsonl, get_ap
 
 
