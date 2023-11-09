@@ -10,13 +10,13 @@ import torch.nn.functional as F
 import torch.backends.cudnn as cudnn
 from torch.utils.data import DataLoader
 
-from qd_detr.config import TestOptions
-from qd_detr.model import build_model
-from qd_detr.span_utils import span_cxw_to_xx
-from qd_detr.start_end_dataset import StartEndDataset, start_end_collate, prepare_batch_inputs
-from qd_detr.start_end_dataset_audio import \
+from config import TestOptions
+from model import build_model
+from span_utils import span_cxw_to_xx
+from start_end_dataset import StartEndDataset, start_end_collate, prepare_batch_inputs
+from start_end_dataset_audio import \
     StartEndDataset_audio, start_end_collate_audio, prepare_batch_inputs_audio
-from qd_detr.postprocessing_qd_detr import PostProcessorDETR
+from postprocessing_qd_detr import PostProcessorDETR
 from standalone_eval.eval import eval_submission
 from utils.basic_utils import save_jsonl, save_json
 from utils.temporal_nms import temporal_nms

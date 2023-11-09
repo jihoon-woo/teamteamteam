@@ -6,12 +6,12 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 
-from qd_detr.span_utils import generalized_temporal_iou, span_cxw_to_xx
+from span_utils import generalized_temporal_iou, span_cxw_to_xx
 
-from qd_detr.matcher import build_matcher
-from qd_detr.transformer import build_transformer
-from qd_detr.position_encoding import build_position_encoding
-from qd_detr.misc import accuracy
+from matcher import build_matcher
+from transformer import build_transformer
+from position_encoding import build_position_encoding
+from misc import accuracy
 import numpy as np
 def inverse_sigmoid(x, eps=1e-3):
     x = x.clamp(min=0, max=1)
