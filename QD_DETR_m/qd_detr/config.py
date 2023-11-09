@@ -191,7 +191,7 @@ class BaseOptions(object):
                                            "-".join([opt.dset_name, ctx_str, opt.exp_id,
                                                      time.strftime("%Y_%m_%d_%H_%M_%S")]))
             mkdirp(opt.results_dir)
-            save_fns = ['qd_detr/model.py', 'qd_detr/transformer.py']
+            save_fns = ['teamteamteam/QD_DETR_m/qd_detr/model.py', 'teamteamteam/QD_DETR_m/qd_detr/transformer.py']
             for save_fn in save_fns:
                 shutil.copyfile(save_fn, os.path.join(opt.results_dir, os.path.basename(save_fn)))
 
