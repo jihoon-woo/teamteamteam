@@ -6,12 +6,12 @@ results_root=results
 exp_id=exp
 
 ######## data paths
-train_path=data/highlight_train_release.jsonl
-eval_path=data/highlight_val_release.jsonl
+train_path=teamteamteam/QD_DETR_m/data/highlight_train_release.jsonl
+eval_path=teamteamteam/QD_DETR_m/data/highlight_val_release.jsonl
 eval_split_name=val
 
 ######## setup video+text features
-feat_root=../features
+feat_root=../input/qd-detr
 
 # video features
 v_feat_dim=0

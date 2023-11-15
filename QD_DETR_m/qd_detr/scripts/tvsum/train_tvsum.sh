@@ -7,12 +7,12 @@ exp_id=exp
 
 
 ######## data paths
-train_path=data/tvsum/tvsum_train.jsonl
-eval_path=data/tvsum/tvsum_val.jsonl
+train_path=teamteamteam/QD_DETR_m/data/tvsum/tvsum_train.jsonl
+eval_path=teamteamteam/QD_DETR_m/data/tvsum/tvsum_val.jsonl
 eval_split_name=val
 
 ######## setup video+text features
-feat_root=../features/tvsum
+feat_root=../input/tvsum
 
 # # video features
 v_feat_dim=2048
