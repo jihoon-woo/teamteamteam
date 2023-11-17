@@ -129,7 +129,7 @@ def compute_hl_results(model, eval_loader, opt, epoch_i=None, criterion=None, tb
             # Follow the UMT code "https://github.com/TencentARC/UMT/blob/main/datasets/tvsum.py"
             for i in range(20):
                 cur_pred = pred[:len(label)]
-                inds = torch.argsort(cur_pred, descending=True, dim=-1).to(opt.device)
+                inds = torch.argsort(cur_pred, descending=True, dim=-1)
 
                 # video_id = self.get_video_id(idx)
                 cur_label = torch.Tensor(label)[:, i]
