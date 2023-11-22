@@ -11,7 +11,7 @@ eval_path=teamteamteam/QD_DETR_m/data/highlight_val_release.jsonl
 eval_split_name=val
 
 ######## setup video+text features
-feat_root= ../input/features
+feat_root= ./features
 
 # video features
 v_feat_dim=0
